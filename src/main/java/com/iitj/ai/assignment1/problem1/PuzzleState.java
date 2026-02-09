@@ -45,7 +45,7 @@ public class PuzzleState {
     }
 
     /**
-     * Read initial and goal states from input.txt.
+     * Read initial and goal states from input1.txt.
      * Returns int[2][9]: [0] = initial, [1] = goal.
      */
     public static int[][] readInput(String filename) throws Exception {

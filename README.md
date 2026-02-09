@@ -75,18 +75,18 @@ javac *.java
 
 ### Run all algorithms at once
 ```bash
-java ManuscriptSorter ../input.txt
+java ManuscriptSorter ../input1.txt
 ```
 
 ### Run individual algorithms
 ```bash
-java BFSSearch ../input.txt
-java DFSSearch ../input.txt
-java GreedyBestFirstSearch ../input.txt
-java AStarSearch ../input.txt
-java IDAStarSearch ../input.txt
-java SimulatedAnnealingSearch ../input.txt
-java AdversarialSearch ../input.txt
+java BFSSearch ../input1.txt
+java DFSSearch ../input1.txt
+java GreedyBestFirstSearch ../input1.txt
+java AStarSearch ../input1.txt
+java IDAStarSearch ../input1.txt
+java SimulatedAnnealingSearch ../input1.txt
+java AdversarialSearch ../input1.txt
 ```
 
 ## Input Format

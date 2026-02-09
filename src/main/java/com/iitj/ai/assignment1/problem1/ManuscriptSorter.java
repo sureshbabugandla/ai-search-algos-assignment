@@ -4,7 +4,7 @@ import java.util.*;
  * ManuscriptSorter - Master runner for all search algorithms.
  * Runs all 8 algorithms on the input state and prints a comparison summary.
  *
- * Usage: javac *.java && java ManuscriptSorter [input.txt]
+ * Usage: javac *.java && java ManuscriptSorter [input1.txt]
  *
  * Student : Suresh Babu Gandla | Roll No : 123245
  * IIT Jodhpur - M.Tech Programme
@@ -12,7 +12,7 @@ import java.util.*;
 public class ManuscriptSorter {
 
     public static void main(String[] args) throws Exception {
-        String inputFile = args.length > 0 ? args[0] : "input.txt";
+        String inputFile = args.length > 0 ? args[0] : "input1.txt";
         int[][] input = PuzzleState.readInput(inputFile);
         int[] initial = input[0];
 

@@ -20,7 +20,7 @@ public class DFSSearch {
     private static final int DEPTH_LIMIT = 50;
 
     public static void main(String[] args) throws Exception {
-        String inputFile = args.length > 0 ? args[0] : "input.txt";
+        String inputFile = args.length > 0 ? args[0] : "input1.txt";
         int[][] input = PuzzleState.readInput(inputFile);
         int[] initial = input[0];
 
